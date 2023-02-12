@@ -1,0 +1,13 @@
+git init
+git add . 
+git commit -m "first commit afdasfasf as ffas fasd"
+git branch -M main
+git remote add origin https://github.com/iNeuronai/scrap.git
+git push -u origin main
+
+git clone https://github.com/iNeuronai/scrap.git
+
+git config --global user.name "iNeuronai"
+git config --global user.email "sudhanshu@ineuron.ai"
+
+git remote remove origin
